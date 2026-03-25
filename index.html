@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Mindanao Round Trip | Explore Paradise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <img src="9363881_4135912.png" alt="Mindanao Round Trip Logo" class="logo-img">
+            <span>MINDANAO<br><small>Round Trip</small></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="#places" class="nav-item">Destinations</a></li>
+            <li><a href="#mission-vision" class="nav-item">Mission & Vision</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+            <li><a href="#booking" class="nav-item book-now-nav">Book Now</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Discover Mindanao's Hidden Gems</h1>
+            <p>From surfing paradises to mystical mountains and crystal lagoons — embark on an unforgettable round trip across Mindanao's finest destinations.</p>
+            <a href="#places" class="btn-primary">Start Journey <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- 6 DESTINATIONS SECTION -->
+    <section id="places" class="places-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Iconic <span class="highlight">Destinations</span></h2>
+                <p>6 must-visit spots across Mindanao — from world-class surf to hidden lagoons and cultural treasures.</p>
+            </div>
+            <div class="places-grid" id="placesGrid"></div>
+        </div>
+    </section>
+
+    <!-- MISSION & VISION -->
+    <section id="mission-vision" class="mission-vision">
+        <div class="container">
+            <div class="mv-grid">
+                <div class="mv-card mission">
+                    <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Our Mission</h3>
+                    <p>To deliver curated, sustainable travel experiences that showcase the authentic culture, natural wonders, and warm hospitality of Mindanao, empowering local communities while creating unforgettable journeys for every traveler.</p>
+                </div>
+                <div class="mv-card vision">
+                    <div class="mv-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Our Vision</h3>
+                    <p>To become the leading platform for immersive round-trip adventures across Mindanao, recognized globally for excellence, sustainability, and deep respect for heritage, making Mindanao a top eco-cultural destination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <h2>Plan Your <span class="highlight">Round Trip</span></h2>
+                    <p>Secure your spot now! Experience a seamless journey with guided tours, transportation, and handpicked accommodations across Mindanao.</p>
+                    <ul class="booking-features">
+                        <li><i class="fas fa-check-circle"></i> Custom itineraries</li>
+                        <li><i class="fas fa-check-circle"></i> Expert local guides</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 traveler support</li>
+                        <li><i class="fas fa-check-circle"></i> Best price guarantee</li>
+                    </ul>
+                </div>
+                <div class="booking-form-card">
+                    <h3>Book Your Adventure</h3>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" id="fullname" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="tripPackage" required>
+                                <option value="" disabled selected>Select round trip package</option>
+                                <option value="3days">3 Days Express (3 spots)</option>
+                                <option value="5days">5 Days Classic (All 6 spots)</option>
+                                <option value="7days">7 Days Premium + Island Hopping</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="travelDate" required>
+                        </div>
+                        <button type="submit" class="btn-submit">Reserve Now <i class="fas fa-credit-card"></i></button>
+                        <p id="formFeedback" class="form-feedback"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h3><i class="fas fa-paper-plane"></i> Get in touch</h3>
+                    <p>Our travel experts are ready to help you build the perfect Mindanao round trip.</p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Davao City, Philippines</li>
+                        <li><i class="fas fa-phone-alt"></i> +63 912 345 6789</li>
+                        <li><i class="fas fa-envelope"></i> hello@mindanaoroundtrip.com</li>
+                        <li><i class="fas fa-clock"></i> Mon - Sat: 9AM - 7PM (PHT)</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container footer-content">
+            <div class="footer-logo">
+        <img src="9363881_4135912.png" alt="Mindanao Round Trip Logo" class="footer-logo-img">
+        <div class="footer-logo-text">
+            <h3>Mindanao Round Trip</h3>
+            <p>Authentic journeys, lifetime memories.</p>
+        </div>
+    </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#places">Destinations</a>
+                    <a href="#mission-vision">Mission & Vision</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#booking">Book Now</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Mindanao Round Trip. Designed for travelers.</p>
+                </div>
+            </div>
+        </footer>
+
+    <!-- CHATBOT WIDGET -->
+    <div id="chatbotWidget" class="chatbot-widget">
+        <div class="chatbot-header" id="chatbotHeader">
+            <div class="chatbot-title">
+                <i class="fas fa-robot"></i> TripMate AI
+            </div>
+            <button id="chatbotToggle" class="chat-toggle"><i class="fas fa-comment-dots"></i></button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chat-messages" id="chatMessages">
+                <div class="bot-message"> Hola! I'm TripMate AI, your travel assistant for Mindanao. Ask me about Siargao, Blue Lagon, Mount Timolan, or any destination!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Ask me anything...">
+                <button id="chatSendBtn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
